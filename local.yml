@@ -1,0 +1,10 @@
+---
+
+-   hosts: all
+    tasks:
+    -   name: Write a test file into the tmp directory
+        blockinfile:
+            path: /tmp/testfile.txt
+            block: |
+            This is a testfile
+            Please disregard!
