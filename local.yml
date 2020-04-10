@@ -6,5 +6,5 @@
         blockinfile:
             path: /tmp/testfile.txt
             block: |
-            This is a testfile
-            Please disregard!
+                This is a testfile
+                Please disregard!
